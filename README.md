@@ -1,7 +1,7 @@
 <!-- ░▒▓█ BANNER CYBERPUNK █▓▒░ -->
 <div align="center">
 
-<img src="https://i.giphy.com/Ya63hjCGVaHjmXzWy0.gif" width="100%" alt="cyberpunk banner" />
+<img src="https://i.giphy.com/c0PX1PqTeqhbtKMekM.gif" width="100%" alt="cyberpunk banner" />
 
 # `> PANDA_AKIRA`
 
