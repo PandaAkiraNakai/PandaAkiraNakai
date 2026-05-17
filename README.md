@@ -109,6 +109,9 @@ status:      "▓▓▓▓▓▓▓▓▓░ 90% caffeinated"
 #### 🛡️ [DerivaShield](https://github.com/PandaAkiraNakai/DerivaShield) &nbsp; ![Python](https://img.shields.io/badge/-Python-0d0221?style=flat-square&logo=python&logoColor=ffff00) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/DerivaShield?style=flat-square&color=ff0080&labelColor=0d0221)
 Detector de anomalías de red basado en **cálculo diferencial**. Trata `paquetes/seg` como señal discreta, calcula primera y segunda derivada, y dispara alerta cuando `f'(t) > μ+kσ` **AND** `f''(t) > 0`. Cubre DDoS y port-scans con baja tasa de falsos positivos.
 
+#### 🤖 [Bots-Telegram](https://github.com/PandaAkiraNakai/Bots-Telegram) &nbsp; ![Python](https://img.shields.io/badge/-Python-0d0221?style=flat-square&logo=python&logoColor=ffff00) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/Bots-Telegram?style=flat-square&color=ff0080&labelColor=0d0221)
+Tres bots de Telegram que se complementan en una PC Linux: **aprobación out-of-band para `sudo`** (askpass + daemon con socket UNIX), **chat con Claude Code desde el teléfono** (streaming, voice notes, documentos), y **panel de control remoto** (estado, procesos, servicios, energía con confirmación en dos pasos). Cero secretos en el repo, deploy idempotente con `systemd` + `polkit`.
+
 #### 🚀 [GM-Express](https://github.com/PandaAkiraNakai/GM-Express) &nbsp; ![Django](https://img.shields.io/badge/-Django-0d0221?style=flat-square&logo=django&logoColor=39ff14) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/GM-Express?style=flat-square&color=ff0080&labelColor=0d0221)
 Sistema Django 5.2 con CRUD completo, autenticación, validaciones chilenas (RUT, stock, fechas) y panel admin.
 
