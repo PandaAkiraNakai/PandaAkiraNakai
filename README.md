@@ -74,11 +74,6 @@ status:      "▓▓▓▓▓▓▓▓▓░ 90% caffeinated"
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=PandaAkiraNakai&show_icons=true&count_private=true&hide_border=true&title_color=ff0080&icon_color=00ffff&text_color=ffffff&bg_color=0d0221" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PandaAkiraNakai&layout=compact&hide_border=true&title_color=ff0080&text_color=ffffff&bg_color=0d0221&langs_count=8" />
-
-<br/><br/>
-
 <img src="https://streak-stats.demolab.com/?user=PandaAkiraNakai&hide_border=true&background=0d0221&stroke=ff0080&ring=00ffff&fire=bd00ff&currStreakLabel=ff0080&sideLabels=00ffff&dates=ffffff&currStreakNum=ffffff&sideNums=ffffff" />
 
 <br/><br/>
@@ -111,33 +106,16 @@ status:      "▓▓▓▓▓▓▓▓▓░ 90% caffeinated"
 
 ## `> ls ./projects/`
 
-<div align="center">
-
-<a href="https://github.com/PandaAkiraNakai/DerivaShield">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=PandaAkiraNakai&repo=DerivaShield&hide_border=true&title_color=ff0080&icon_color=00ffff&text_color=ffffff&bg_color=0d0221" />
-</a>
-<a href="https://github.com/PandaAkiraNakai/GM-Express">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=PandaAkiraNakai&repo=GM-Express&hide_border=true&title_color=ff0080&icon_color=00ffff&text_color=ffffff&bg_color=0d0221" />
-</a>
-<a href="https://github.com/PandaAkiraNakai/IOt-Cuarta-Eva">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=PandaAkiraNakai&repo=IOt-Cuarta-Eva&hide_border=true&title_color=ff0080&icon_color=00ffff&text_color=ffffff&bg_color=0d0221" />
-</a>
-<a href="https://github.com/PandaAkiraNakai/Tetris">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=PandaAkiraNakai&repo=Tetris&hide_border=true&title_color=ff0080&icon_color=00ffff&text_color=ffffff&bg_color=0d0221" />
-</a>
-
-</div>
-
-#### 🛡️ DerivaShield
+#### 🛡️ [DerivaShield](https://github.com/PandaAkiraNakai/DerivaShield) &nbsp; ![Python](https://img.shields.io/badge/-Python-0d0221?style=flat-square&logo=python&logoColor=ffff00) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/DerivaShield?style=flat-square&color=ff0080&labelColor=0d0221)
 Detector de anomalías de red basado en **cálculo diferencial**. Trata `paquetes/seg` como señal discreta, calcula primera y segunda derivada, y dispara alerta cuando `f'(t) > μ+kσ` **AND** `f''(t) > 0`. Cubre DDoS y port-scans con baja tasa de falsos positivos.
 
-#### 🚀 GM-Express
+#### 🚀 [GM-Express](https://github.com/PandaAkiraNakai/GM-Express) &nbsp; ![Django](https://img.shields.io/badge/-Django-0d0221?style=flat-square&logo=django&logoColor=39ff14) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/GM-Express?style=flat-square&color=ff0080&labelColor=0d0221)
 Sistema Django 5.2 con CRUD completo, autenticación, validaciones chilenas (RUT, stock, fechas) y panel admin.
 
-#### 📱 AppDepartment
-App Android (Kotlin) para gestión de departamentos, sensores IoT y usuarios. Cliente REST con corrutinas.
+#### 📡 [IOt-Cuarta-Eva](https://github.com/PandaAkiraNakai/IOt-Cuarta-Eva) &nbsp; ![C++](https://img.shields.io/badge/-C++-0d0221?style=flat-square&logo=cplusplus&logoColor=00ffff) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/IOt-Cuarta-Eva?style=flat-square&color=ff0080&labelColor=0d0221)
+Proyecto de IoT para evaluación de cuarta unidad — sensores y firmware embebido.
 
-#### 🎮 Tetris Web
+#### 🎮 [Tetris](https://github.com/PandaAkiraNakai/Tetris) &nbsp; ![JavaScript](https://img.shields.io/badge/-JavaScript-0d0221?style=flat-square&logo=javascript&logoColor=ffff00) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/Tetris?style=flat-square&color=ff0080&labelColor=0d0221)
 Clon de Tetris en HTML5/JS puro, sin frameworks de juego.
 
 <br/>
