@@ -115,6 +115,9 @@ Tres bots de Telegram que se complementan en una PC Linux: **aprobación out-of-
 #### 🚀 [GM-Express](https://github.com/PandaAkiraNakai/GM-Express) &nbsp; ![Django](https://img.shields.io/badge/-Django-0d0221?style=flat-square&logo=django&logoColor=39ff14) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/GM-Express?style=flat-square&color=ff0080&labelColor=0d0221)
 Sistema Django 5.2 con CRUD completo, autenticación, validaciones chilenas (RUT, stock, fechas) y panel admin.
 
+#### 🧵 [KarimeCosturasAndroid](https://github.com/PandaAkiraNakai/KarimeCosturasAndroid) &nbsp; ![Kotlin](https://img.shields.io/badge/-Kotlin-0d0221?style=flat-square&logo=kotlin&logoColor=bd00ff) ![PHP](https://img.shields.io/badge/-PHP-0d0221?style=flat-square&logo=php&logoColor=00ffff) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/KarimeCosturasAndroid?style=flat-square&color=ff0080&labelColor=0d0221)
+App Android para la gestión integral del taller **Karime Costuras**: ventas con carrito, inventario, gastos, finanzas y reportes desde el celular. Cliente en **Kotlin + Jetpack Compose** (Material 3, Retrofit/OkHttp); backend **PHP + MySQL** desplegado con **Docker + Nginx**.
+
 #### 📡 [IOt-Cuarta-Eva](https://github.com/PandaAkiraNakai/IOt-Cuarta-Eva) &nbsp; ![C++](https://img.shields.io/badge/-C++-0d0221?style=flat-square&logo=cplusplus&logoColor=00ffff) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/IOt-Cuarta-Eva?style=flat-square&color=ff0080&labelColor=0d0221)
 Proyecto de IoT para evaluación de cuarta unidad — sensores y firmware embebido.
 
