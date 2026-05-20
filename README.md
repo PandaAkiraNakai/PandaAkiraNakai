@@ -107,8 +107,8 @@ status:        "JACKED_IN // looking for runs"
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=PandaAkiraNakai&show_icons=true&hide_border=true&bg_color=0d0221&title_color=ff0080&icon_color=00ffff&text_color=ffffff&ring_color=bd00ff" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PandaAkiraNakai&layout=compact&hide_border=true&bg_color=0d0221&title_color=ff0080&text_color=ffffff&langs_count=8" />
+<img height="180em" src="https://github-readme-stats-nine-tan-12.vercel.app/api?username=PandaAkiraNakai&show_icons=true&hide_border=true&bg_color=0d0221&title_color=ff0080&icon_color=00ffff&text_color=ffffff&ring_color=bd00ff" />
+<img height="180em" src="https://github-readme-stats-nine-tan-12.vercel.app/api/top-langs/?username=PandaAkiraNakai&layout=compact&hide_border=true&bg_color=0d0221&title_color=ff0080&text_color=ffffff&langs_count=8" />
 
 <br/><br/>
 
