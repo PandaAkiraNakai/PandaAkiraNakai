@@ -34,7 +34,7 @@
 <br/>
 
 <!-- ░▒▓█ IDENTITY █▓▒░ -->
-<img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" width="100%" alt="divider" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:BD00FF,100:FF0080&height=60&section=footer" width="100%" alt="divider" />
 
 ## `> cat ./identity.sh`
 
@@ -59,7 +59,7 @@ status:        "JACKED_IN // looking for runs"
 <br/>
 
 <!-- ░▒▓█ LOADOUT █▓▒░ -->
-<img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" width="100%" alt="divider" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:BD00FF,100:FF0080&height=60&section=footer" width="100%" alt="divider" />
 
 ## `> ./loadout.sh --verbose`
 
@@ -101,7 +101,7 @@ status:        "JACKED_IN // looking for runs"
 <br/>
 
 <!-- ░▒▓█ TELEMETRY █▓▒░ -->
-<img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" width="100%" alt="divider" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:BD00FF,100:FF0080&height=60&section=footer" width="100%" alt="divider" />
 
 ## `> ./telemetry.sh --live`
 
@@ -123,7 +123,7 @@ status:        "JACKED_IN // looking for runs"
 <br/>
 
 <!-- ░▒▓█ ACTIVITY █▓▒░ -->
-<img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" width="100%" alt="divider" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:BD00FF,100:FF0080&height=60&section=footer" width="100%" alt="divider" />
 
 ## `> ./trace.sh --grid`
 
@@ -140,7 +140,7 @@ status:        "JACKED_IN // looking for runs"
 <br/>
 
 <!-- ░▒▓█ PAYLOADS █▓▒░ -->
-<img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" width="100%" alt="divider" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:BD00FF,100:FF0080&height=60&section=footer" width="100%" alt="divider" />
 
 ## `> ls -la ./payloads/`
 
@@ -168,7 +168,7 @@ Clon de Tetris en HTML5/JS puro, sin frameworks de juego. `// 4 a.m. coding · n
 <br/>
 
 <!-- ░▒▓█ JACK OUT █▓▒░ -->
-<img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" width="100%" alt="divider" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:BD00FF,100:FF0080&height=60&section=footer" width="100%" alt="divider" />
 
 ## `> ./jack_out.sh`
 
