@@ -165,15 +165,6 @@ Vault Obsidian construido como **cerebro virtual de ciencias** — ~375 notas N0
 #### `[VAULT-FORGE]` [obsidian-quartz-publish](https://github.com/PandaAkiraNakai/obsidian-quartz-publish) &nbsp; ![Template](https://img.shields.io/badge/-Template-0d0221?style=flat-square&logo=github&logoColor=39ff14) ![Docker](https://img.shields.io/badge/-Docker-0d0221?style=flat-square&logo=docker&logoColor=00ffff) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/obsidian-quartz-publish?style=flat-square&color=ff0080&labelColor=0d0221)
 **Template público** extraído del rig anterior: publica tu vault Obsidian como sitio estático con **Quartz v4 + nginx + Docker**, listo para Coolify u otra plataforma docker-compose. Build multi-stage (Quartz se clona en build, el repo del usuario queda chico), magic env `SERVICE_FQDN_SITE` para auto-domain, contenido de ejemplo incluido. `// use this template · plug-in tu vault · burn`
 
-#### `[CHROME-RIG]` [KarimeCosturasAndroid](https://github.com/PandaAkiraNakai/KarimeCosturasAndroid) &nbsp; ![Kotlin](https://img.shields.io/badge/-Kotlin-0d0221?style=flat-square&logo=kotlin&logoColor=bd00ff) ![PHP](https://img.shields.io/badge/-PHP-0d0221?style=flat-square&logo=php&logoColor=00ffff) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/KarimeCosturasAndroid?style=flat-square&color=ff0080&labelColor=0d0221)
-Sistema completo para taller **Karime Costuras**: ventas con carrito, inventario, gastos, finanzas y reportes en mano. Cliente Android en **Kotlin + Jetpack Compose** (Material 3, Retrofit/OkHttp); backend **PHP + MySQL** desplegado con **Docker + Nginx**.
-
-#### `[CORPO-STACK]` [GM-Express](https://github.com/PandaAkiraNakai/GM-Express) &nbsp; ![Django](https://img.shields.io/badge/-Django-0d0221?style=flat-square&logo=django&logoColor=39ff14) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/GM-Express?style=flat-square&color=ff0080&labelColor=0d0221)
-Sistema Django 5.2 con CRUD completo, autenticación, validaciones chilenas (RUT, stock, fechas) y panel admin. `// ledger en producción · sin frills`
-
-#### `[FIRMWARE]` [IOt-Cuarta-Eva](https://github.com/PandaAkiraNakai/IOt-Cuarta-Eva) &nbsp; ![C++](https://img.shields.io/badge/-C++-0d0221?style=flat-square&logo=cplusplus&logoColor=00ffff) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/IOt-Cuarta-Eva?style=flat-square&color=ff0080&labelColor=0d0221)
-Proyecto IoT con sensores y firmware embebido. `// hardware-hacking sandbox`
-
 #### `[ARCADE]` [Tetris](https://github.com/PandaAkiraNakai/Tetris) &nbsp; ![JavaScript](https://img.shields.io/badge/-JavaScript-0d0221?style=flat-square&logo=javascript&logoColor=ffff00) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/Tetris?style=flat-square&color=ff0080&labelColor=0d0221)
 Clon de Tetris en HTML5/JS puro, sin frameworks de juego. `// 4 a.m. coding · no deps`
 
