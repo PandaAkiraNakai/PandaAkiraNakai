@@ -145,7 +145,9 @@ status:        "JACKED_IN // looking for runs"
 ## `> ls -la ./payloads/`
 
 #### `[REMOTE-DECK]` [Panda Control](https://github.com/PandaAkiraNakai/PandaControl) &nbsp; ![Kotlin](https://img.shields.io/badge/-Kotlin-0d0221?style=flat-square&logo=kotlin&logoColor=bd00ff) ![Python](https://img.shields.io/badge/-Python-0d0221?style=flat-square&logo=python&logoColor=ffff00) ![Jetpack%20Compose](https://img.shields.io/badge/-Compose-0d0221?style=flat-square&logo=jetpackcompose&logoColor=39ff14) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/PandaControl?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:PandaControl -->
 **Panel Android + backend Python** para controlar tu PC Linux desde el celu vía **Tailscale**. Kotlin/Compose con tema cyberpunk, Ktor 3 + SSE para push en vivo, ForegroundService para notifs en background. Daemon stdlib que expone REST/SSE bajo polkit narrow-scope: poder, kill, services, audio sinks (pactl), pantallas niri + DPMS, MPRIS con seek±15/fullscreen, lanzar apps/juegos Steam, journal, updates `pacman`. Auth dual: identidad Tailscale (`tailscale whois`) o Bearer token. Cero servicios externos, cero telemetría. `// linux-control · phone-rig · tailnet-native`
+<!-- /excerpt:PandaControl -->
 
 #### `[NET-CODEX]` [Cerebro-Virtual-Ciberseguridad](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciberseguridad) &nbsp; ![Obsidian](https://img.shields.io/badge/-Obsidian-0d0221?style=flat-square&logo=obsidian&logoColor=bd00ff) ![Cisco](https://img.shields.io/badge/-Cisco-0d0221?style=flat-square&logo=cisco&logoColor=00ffff) ![MikroTik](https://img.shields.io/badge/-MikroTik-0d0221?style=flat-square&logo=mikrotik&logoColor=ff0080) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/Cerebro-Virtual-Ciberseguridad?style=flat-square&color=ff0080&labelColor=0d0221)
 <!-- excerpt:Cerebro-Virtual-Ciberseguridad -->
@@ -153,37 +155,59 @@ Vault Obsidian de **redes y ciberseguridad** — 99 notas en 26 secciones: **Cis
 <!-- /excerpt:Cerebro-Virtual-Ciberseguridad -->
 
 #### `[ICE-BREAKER]` [DerivaShield](https://github.com/PandaAkiraNakai/DerivaShield) &nbsp; ![Python](https://img.shields.io/badge/-Python-0d0221?style=flat-square&logo=python&logoColor=ffff00) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/DerivaShield?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:DerivaShield -->
 Detector de anomalías de red basado en **cálculo diferencial**. Trata `paquetes/seg` como señal discreta, calcula primera y segunda derivada, y dispara alerta cuando `f'(t) > μ+kσ` **AND** `f''(t) > 0`. Caza DDoS y port-scans con baja tasa de falsos positivos. `// firewall · IDS · math-as-weapon`
+<!-- /excerpt:DerivaShield -->
 
 #### `[DAEMON-SWARM]` [Bots-Telegram](https://github.com/PandaAkiraNakai/Bots-Telegram) &nbsp; ![Python](https://img.shields.io/badge/-Python-0d0221?style=flat-square&logo=python&logoColor=ffff00) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/Bots-Telegram?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:Bots-Telegram -->
 Tres daemons que se complementan sobre un deck Linux: **aprobación out-of-band para `sudo`** (askpass + socket UNIX), **chat con Claude Code desde el teléfono** (streaming, voice-notes, documentos) y **panel de control remoto** (procesos, servicios, power-cycle con doble confirmación, updates de sistema vía oneshot polkit, MPRIS con seek). Cero secretos en el repo, deploy idempotente con `systemd` + `polkit`.
+<!-- /excerpt:Bots-Telegram -->
 
 #### `[MEMORY-CORE]` [mem-cli](https://github.com/PandaAkiraNakai/mem-cli) &nbsp; ![Shell](https://img.shields.io/badge/-Shell-0d0221?style=flat-square&logo=gnubash&logoColor=ffff00) ![SQLite](https://img.shields.io/badge/-SQLite-0d0221?style=flat-square&logo=sqlite&logoColor=00ffff) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/mem-cli?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:mem-cli -->
 CLI minimal en bash sobre **SQLite** para **memorias** (hechos persistentes inyectables al inicio de sesión) y **pedidos** (TODOs con estado y prioridad). Pensado como capa de memoria local para **Claude Code** vía hook `SessionStart`, pero sirve para cualquier flujo que necesite estado persistente accesible por CLI. Bootstrap automático del schema, XDG-compliant, cero dependencias más allá de `bash` + `sqlite3`.
+<!-- /excerpt:mem-cli -->
 
 #### `[DECK-SKIN]` [dotfiles](https://github.com/PandaAkiraNakai/dotfiles) &nbsp; ![Wayland](https://img.shields.io/badge/-Wayland-0d0221?style=flat-square&logo=wayland&logoColor=00ffff) ![Shell](https://img.shields.io/badge/-Shell-0d0221?style=flat-square&logo=gnubash&logoColor=ffff00) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/dotfiles?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:dotfiles -->
 Configuración completa del deck en estética **cyberpunk-netrunner** sobre **CachyOS + niri (Wayland scrollable WM)**: `noctalia` (Quickshell), `alacritty`, `starship`, `fish`, `micro`, `btop`, `fastfetch`. Paleta cyan/magenta/amber sobre negro profundo, colorscheme custom propagada a todos los rigs. `// install · plug-in · burn`
+<!-- /excerpt:dotfiles -->
 
 #### `[COLD-BOOT]` [niri-bootstrap](https://github.com/PandaAkiraNakai/niri-bootstrap) &nbsp; ![Shell](https://img.shields.io/badge/-Shell-0d0221?style=flat-square&logo=gnubash&logoColor=ffff00) ![Arch](https://img.shields.io/badge/-Arch-0d0221?style=flat-square&logo=archlinux&logoColor=00ffff) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/niri-bootstrap?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:niri-bootstrap -->
 Script idempotente que parte de un **Arch / CachyOS** limpio y deja el deck listo: paquetes oficiales, AUR vía paru, clone de [`dotfiles`](https://github.com/PandaAkiraNakai/dotfiles), servicios `systemd --user` (pipewire stack) y `chsh` a fish. Flags `--dry-run`, `--no-aur`, `--skip-dotfiles`, `--dotfiles-repo`. Backup automático con timestamp de cualquier config preexistente. `// jack-in desde cero · idempotente · sin sorpresas`
+<!-- /excerpt:niri-bootstrap -->
 
 #### `[PROMPT-INK]` [starship-cyberpunk-preset](https://github.com/PandaAkiraNakai/starship-cyberpunk-preset) &nbsp; ![Starship](https://img.shields.io/badge/-Starship-0d0221?style=flat-square&logo=starship&logoColor=ff0080) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/starship-cyberpunk-preset?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:starship-cyberpunk-preset -->
 Preset standalone de **Starship** extraído del deck: chevrons, brackets angulares y paleta neón (cyan / magenta / amber). Shell-agnóstico (fish, bash, zsh, nu). Drop-in en `~/.config/starship.toml` y listo. `// minimal · truecolor · Nerd Font`
+<!-- /excerpt:starship-cyberpunk-preset -->
 
 #### `[OVERCLOCK]` [gamescope-auto](https://github.com/PandaAkiraNakai/gamescope-auto) &nbsp; ![Shell](https://img.shields.io/badge/-Shell-0d0221?style=flat-square&logo=gnubash&logoColor=ffff00) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/gamescope-auto?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:gamescope-auto -->
 Wrapper de **gamescope** para juegos de Steam en niri: detecta el modo exacto del monitor enfocado (ancho × alto × refresh), arranca en pantalla completa nested y auto-focusea la ventana nueva del juego. Recupera el ~1 cm perdido por los indicadores de columna de niri y elimina el "abro el juego pero queda en otra columna sin foco". `// drop-in en Steam Launch Options`
+<!-- /excerpt:gamescope-auto -->
 
 #### `[SOUND-RIP]` [gamdl-portable](https://github.com/PandaAkiraNakai/gamdl-portable) &nbsp; ![Shell](https://img.shields.io/badge/-Shell-0d0221?style=flat-square&logo=gnubash&logoColor=ffff00) ![Apple Music](https://img.shields.io/badge/-Apple%20Music-0d0221?style=flat-square&logo=applemusic&logoColor=fa243c) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/gamdl-portable?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:gamdl-portable -->
 Setup portable de **gamdl** para rippear tu música de **Apple Music** en **AAC 256 kbps** sobre cualquier PC Linux Debian/Ubuntu. Un solo `setup.sh` idempotente instala `pipx` + `ffmpeg` + `gamdl`, genera el `config.ini` con tus rutas y descarga en `~/Música/{artista}/{álbum}` con tags y carátula. Las cookies (≈ tu sesión Apple) nunca tocan el repo — las pones a mano en el PC nuevo. `// audio-heist · one-shot · zero-creds-in-repo`
+<!-- /excerpt:gamdl-portable -->
 
 #### `[NEURAL-LINK]` [Cerebro-Virtual-Ciencias](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciencias) &nbsp; ![Obsidian](https://img.shields.io/badge/-Obsidian-0d0221?style=flat-square&logo=obsidian&logoColor=bd00ff) ![Quartz](https://img.shields.io/badge/-Quartz%20v4-0d0221?style=flat-square&logo=markdown&logoColor=00ffff) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/Cerebro-Virtual-Ciencias?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:Cerebro-Virtual-Ciencias -->
 Vault Obsidian construido como **cerebro virtual de ciencias** — ~375 notas N0→N5 con eje en **paleontología** y ramas en **biología, geología, antropología y química** (expansión taxonómica completa de Dinosauria y Hominoidea). Publicado con **Quartz v4 + nginx en Docker** → [paleo.sergiocubelli.space](https://paleo.sergiocubelli.space).
+<!-- /excerpt:Cerebro-Virtual-Ciencias -->
 
 #### `[VAULT-FORGE]` [obsidian-quartz-publish](https://github.com/PandaAkiraNakai/obsidian-quartz-publish) &nbsp; ![Template](https://img.shields.io/badge/-Template-0d0221?style=flat-square&logo=github&logoColor=39ff14) ![Docker](https://img.shields.io/badge/-Docker-0d0221?style=flat-square&logo=docker&logoColor=00ffff) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/obsidian-quartz-publish?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:obsidian-quartz-publish -->
 **Template público** extraído del rig anterior: publica tu vault Obsidian como sitio estático con **Quartz v4 + nginx + Docker**, listo para Coolify u otra plataforma docker-compose. Build multi-stage (Quartz se clona en build, el repo del usuario queda chico), magic env `SERVICE_FQDN_SITE` para auto-domain, contenido de ejemplo incluido. `// use this template · plug-in tu vault · burn`
+<!-- /excerpt:obsidian-quartz-publish -->
 
 #### `[ARCADE]` [Tetris](https://github.com/PandaAkiraNakai/Tetris) &nbsp; ![JavaScript](https://img.shields.io/badge/-JavaScript-0d0221?style=flat-square&logo=javascript&logoColor=ffff00) ![Stars](https://img.shields.io/github/stars/PandaAkiraNakai/Tetris?style=flat-square&color=ff0080&labelColor=0d0221)
+<!-- excerpt:Tetris -->
 Clon de Tetris en HTML5/JS puro, sin frameworks de juego. `// 4 a.m. coding · no deps`
+<!-- /excerpt:Tetris -->
 
 <br/>
 

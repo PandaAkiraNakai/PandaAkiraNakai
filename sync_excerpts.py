@@ -14,8 +14,19 @@ OWNER = "PandaAkiraNakai"
 
 # Repos a sincronizar: nombre del repo tal como aparece en GitHub
 REPOS = [
+    "PandaControl",
     "Cerebro-Virtual-Ciberseguridad",
-    # Agregar más repos aquí con el mismo esquema de marcadores
+    "DerivaShield",
+    "Bots-Telegram",
+    "mem-cli",
+    "dotfiles",
+    "niri-bootstrap",
+    "starship-cyberpunk-preset",
+    "gamescope-auto",
+    "gamdl-portable",
+    "Cerebro-Virtual-Ciencias",
+    "obsidian-quartz-publish",
+    "Tetris",
 ]
 
 
