@@ -1,0 +1,29 @@
+name: Sync repo excerpts
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # diario a las 6am UTC
+  workflow_dispatch:       # también se puede lanzar a mano desde GitHub
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sincronizar excerpts
+        run: python3 sync_excerpts.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit si hubo cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && echo "Sin cambios." && exit 0
+          git add README.md
+          git commit -m "chore: sync repo excerpts [skip ci]"
+          git push
