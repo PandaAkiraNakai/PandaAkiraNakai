@@ -47,7 +47,13 @@ def extract_excerpt(content: str) -> str | None:
         content,
         re.DOTALL,
     )
-    return m.group(1).strip() if m else None
+    if not m:
+        return None
+    text = m.group(1).strip()
+    # Estilo limpio: quitar sufijo tipo `// foo · bar` y dejar una sola línea
+    text = re.sub(r"\s*`//[^`]*`\s*$", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 
 def inject_excerpt(profile: str, repo: str, excerpt: str) -> str:
@@ -56,7 +62,7 @@ def inject_excerpt(profile: str, repo: str, excerpt: str) -> str:
         rf".*?"
         rf"(<!-- /excerpt:{re.escape(repo)} -->)"
     )
-    replacement = rf"\1\n{excerpt}\n\2"
+    replacement = rf"\1{excerpt}\2"
     return re.sub(pattern, replacement, profile, flags=re.DOTALL)
 
 

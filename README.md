@@ -5,7 +5,7 @@
 ### Developer · Linux · Ciberseguridad
 
 <a href="https://github.com/PandaAkiraNakai">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&pause=1200&color=0071E3&center=true&vCenter=true&width=620&height=42&lines=Backend+%C2%B7+Python+%2F+Django;Android+%C2%B7+Kotlin+%2F+Compose;Redes+y+ciberseguridad;Automatizaci%C3%B3n+sobre+Linux" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=500&size=20&pause=1200&color=0071E3&center=true&vCenter=true&width=620&height=42&lines=Backend+%C2%B7+Python+%2F+Django;Android+%C2%B7+Kotlin+%2F+Compose;Redes+y+ciberseguridad;Automatizaci%C3%B3n+sobre+Linux" alt="typing" />
 </a>
 
 <br/>
@@ -54,60 +54,28 @@ Construyo herramientas que conectan el teléfono con el escritorio Linux, daemon
 
 ## Proyectos
 
-**[Panda Control](https://github.com/PandaAkiraNakai/PandaControl)** &nbsp;·&nbsp; Kotlin · Python · Compose
-<!-- excerpt:PandaControl -->
-**Panel Android + backend Python** para controlar tu PC Linux desde el celu vía **Tailscale**. Kotlin/Compose con tema cyberpunk, Ktor 3 + SSE para push en vivo, ForegroundService para notifs en background. Daemon stdlib que expone REST/SSE bajo polkit narrow-scope: poder, kill, services, inhibir suspensión, mini-terminal opt-in, audio maestro/por-app/mic (pactl), portapapeles (wl-clipboard), pantallas niri + DPMS + escenas (presets), MPRIS con seek±15/fullscreen, lanzar/cerrar juegos Steam, gestor de archivos (navegar/subir/bajar/renombrar/borrar/abrir, anti path-traversal), journal, updates `pacman`. Auth dual: identidad Tailscale (`tailscale whois`) o Bearer token. Cero servicios externos, cero telemetría. `// linux-control · phone-rig · tailnet-native`
-<!-- /excerpt:PandaControl -->
+| Proyecto | Stack | Descripción |
+| :-- | :-- | :-- |
+| **[Panda Control](https://github.com/PandaAkiraNakai/PandaControl)** | Kotlin · Python · Compose | <!-- excerpt:PandaControl -->**Panel Android + backend Python** para controlar tu PC Linux desde el celu vía **Tailscale**. Kotlin/Compose con tema cyberpunk, Ktor 3 + SSE para push en vivo, ForegroundService para notifs en background. Daemon stdlib que expone REST/SSE bajo polkit narrow-scope: poder, kill, services, inhibir suspensión, mini-terminal opt-in, audio maestro/por-app/mic (pactl), portapapeles (wl-clipboard), pantallas niri + DPMS + escenas (presets), MPRIS con seek±15/fullscreen, lanzar/cerrar juegos Steam, gestor de archivos (navegar/subir/bajar/renombrar/borrar/abrir, anti path-traversal), journal, updates `pacman`. Auth dual: identidad Tailscale (`tailscale whois`) o Bearer token. Cero servicios externos, cero telemetría.<!-- /excerpt:PandaControl --> |
+| **[OpenCodeAndroid](https://github.com/PandaAkiraNakai/OpenCodeAndroid)** | Kotlin · Compose · Ktor | <!-- excerpt:OpenCodeAndroid -->**Cliente Android para [OpenCode](https://opencode.ai)** — chatea con tu agente de IA de código desde el celu. Kotlin/Compose con tema cyberpunk: sesiones, **selector de modelos** (providers del server), explorador de archivos del workspace, **adjuntos** (imágenes con reescalado + archivos vía `data:` URL, con guardar/compartir lo recibido) y **dictado por voz on-device** (Speech-to-Text del sistema → texto, sin tokens ni audio al server). Ktor 3 + OkHttp, **SSE** para streaming de respuestas, Basic Auth. Habla por HTTP con cualquier server `opencode serve` en tu LAN/tailnet.<!-- /excerpt:OpenCodeAndroid --> |
+| **[DerivaShield](https://github.com/PandaAkiraNakai/DerivaShield)** | Python | <!-- excerpt:DerivaShield -->Detector de anomalías de red basado en **cálculo diferencial**. Trata `paquetes/seg` como señal discreta, calcula primera y segunda derivada, y dispara alerta cuando `f'(t) > μ+kσ` **AND** `f''(t) > 0`. Caza DDoS y port-scans con baja tasa de falsos positivos.<!-- /excerpt:DerivaShield --> |
+| **[Bots Telegram](https://github.com/PandaAkiraNakai/Bots-Telegram)** | Python | <!-- excerpt:Bots-Telegram -->Tres daemons que se complementan sobre un deck Linux: **aprobación out-of-band para `sudo`** (askpass + socket UNIX), **chat con Claude Code desde el teléfono** (streaming, voice-notes, documentos) y **panel de control remoto** (procesos, servicios, power-cycle con doble confirmación, updates de sistema vía oneshot polkit, MPRIS con seek). Cero secretos en el repo, deploy idempotente con `systemd` + `polkit`.<!-- /excerpt:Bots-Telegram --> |
+| **[mem-cli](https://github.com/PandaAkiraNakai/mem-cli)** | Shell · SQLite | <!-- excerpt:mem-cli -->CLI minimal en bash sobre **SQLite** para **memorias** (hechos persistentes inyectables al inicio de sesión) y **pedidos** (TODOs con estado y prioridad). Pensado como capa de memoria local para **Claude Code** vía hook `SessionStart`, pero sirve para cualquier flujo que necesite estado persistente accesible por CLI. Bootstrap automático del schema, XDG-compliant, cero dependencias más allá de `bash` + `sqlite3`.<!-- /excerpt:mem-cli --> |
+| **[gamescope-auto](https://github.com/PandaAkiraNakai/gamescope-auto)** | Shell | <!-- excerpt:gamescope-auto -->Wrapper de **gamescope** para juegos de Steam en niri: detecta el modo exacto del monitor enfocado (ancho × alto × refresh), arranca en pantalla completa nested y auto-focusea la ventana nueva del juego. Recupera el ~1 cm perdido por los indicadores de columna de niri y elimina el "abro el juego pero queda en otra columna sin foco".<!-- /excerpt:gamescope-auto --> |
+| **[gamdl-portable](https://github.com/PandaAkiraNakai/gamdl-portable)** | Shell · Apple Music | <!-- excerpt:gamdl-portable -->Setup portable de **gamdl** para rippear tu música de **Apple Music** en **AAC 256 kbps** sobre cualquier PC Linux Debian/Ubuntu. Un solo `setup.sh` idempotente instala `pipx` + `ffmpeg` + `gamdl`, genera el `config.ini` con tus rutas y descarga en `~/Música/{artista}/{álbum}` con tags y carátula. Las cookies (≈ tu sesión Apple) nunca tocan el repo — las pones a mano en el PC nuevo.<!-- /excerpt:gamdl-portable --> |
+| **[obsidian-quartz-publish](https://github.com/PandaAkiraNakai/obsidian-quartz-publish)** | Docker · Quartz | <!-- excerpt:obsidian-quartz-publish -->**Template público** extraído del rig anterior: publica tu vault Obsidian como sitio estático con **Quartz v4 + nginx + Docker**, listo para Coolify u otra plataforma docker-compose. Build multi-stage (Quartz se clona en build, el repo del usuario queda chico), magic env `SERVICE_FQDN_SITE` para auto-domain, contenido de ejemplo incluido.<!-- /excerpt:obsidian-quartz-publish --> |
+| **[Tetris](https://github.com/PandaAkiraNakai/Tetris)** | JavaScript | <!-- excerpt:Tetris -->Clon de Tetris en HTML5/JS puro, sin frameworks de juego.<!-- /excerpt:Tetris --> |
 
-**[OpenCodeAndroid](https://github.com/PandaAkiraNakai/OpenCodeAndroid)** &nbsp;·&nbsp; Kotlin · Compose · Ktor
-<!-- excerpt:OpenCodeAndroid -->
-**Cliente Android para [OpenCode](https://opencode.ai)** — chatea con tu agente de IA de código desde el celu. Kotlin/Compose con tema cyberpunk: sesiones, **selector de modelos** (providers del server), explorador de archivos del workspace, **adjuntos** (imágenes con reescalado + archivos vía `data:` URL, con guardar/compartir lo recibido) y **dictado por voz on-device** (Speech-to-Text del sistema → texto, sin tokens ni audio al server). Ktor 3 + OkHttp, **SSE** para streaming de respuestas, Basic Auth. Habla por HTTP con cualquier server `opencode serve` en tu LAN/tailnet. `// agent-deck · phone-rig · voice-to-text`
-<!-- /excerpt:OpenCodeAndroid -->
+<br/>
 
-**[Cerebro Virtual · Ciberseguridad](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciberseguridad)** &nbsp;·&nbsp; Obsidian · Cisco · MikroTik
-<!-- excerpt:Cerebro-Virtual-Ciberseguridad -->
-Vault Obsidian de **redes y ciberseguridad** — 130 notas en 27 secciones: **Cisco IOS / MikroTik**, administración **Linux**, **reconocimiento** (OSINT, Nmap, nuclei), **pentesting** y defensa (firewalls, **IDS/IPS**, criptografía, phishing), **seguridad web** (45 vulns OWASP), **post-explotación** (escalada Linux/Windows, pivoting, **Active Directory**), **monitoreo** (Zabbix / Splunk / Wireshark), **IoT / Meshtastic**, **cloud** y servicios. Grafo de conocimiento navegable con nota índice **MOC** como cabeza del cerebro. `// net-codex · blue+red · knowledge-graph`
-<!-- /excerpt:Cerebro-Virtual-Ciberseguridad -->
+## Cerebros virtuales
 
-**[DerivaShield](https://github.com/PandaAkiraNakai/DerivaShield)** &nbsp;·&nbsp; Python
-<!-- excerpt:DerivaShield -->
-Detector de anomalías de red basado en **cálculo diferencial**. Trata `paquetes/seg` como señal discreta, calcula primera y segunda derivada, y dispara alerta cuando `f'(t) > μ+kσ` **AND** `f''(t) > 0`. Caza DDoS y port-scans con baja tasa de falsos positivos. `// firewall · IDS · math-as-weapon`
-<!-- /excerpt:DerivaShield -->
+Vaults de Obsidian construidos como grafos de conocimiento navegables.
 
-**[Bots Telegram](https://github.com/PandaAkiraNakai/Bots-Telegram)** &nbsp;·&nbsp; Python
-<!-- excerpt:Bots-Telegram -->
-Tres daemons que se complementan sobre un deck Linux: **aprobación out-of-band para `sudo`** (askpass + socket UNIX), **chat con Claude Code desde el teléfono** (streaming, voice-notes, documentos) y **panel de control remoto** (procesos, servicios, power-cycle con doble confirmación, updates de sistema vía oneshot polkit, MPRIS con seek). Cero secretos en el repo, deploy idempotente con `systemd` + `polkit`.
-<!-- /excerpt:Bots-Telegram -->
-
-**[mem-cli](https://github.com/PandaAkiraNakai/mem-cli)** &nbsp;·&nbsp; Shell · SQLite
-<!-- excerpt:mem-cli -->
-CLI minimal en bash sobre **SQLite** para **memorias** (hechos persistentes inyectables al inicio de sesión) y **pedidos** (TODOs con estado y prioridad). Pensado como capa de memoria local para **Claude Code** vía hook `SessionStart`, pero sirve para cualquier flujo que necesite estado persistente accesible por CLI. Bootstrap automático del schema, XDG-compliant, cero dependencias más allá de `bash` + `sqlite3`.
-<!-- /excerpt:mem-cli -->
-
-**[gamescope-auto](https://github.com/PandaAkiraNakai/gamescope-auto)** &nbsp;·&nbsp; Shell
-<!-- excerpt:gamescope-auto -->
-Wrapper de **gamescope** para juegos de Steam en niri: detecta el modo exacto del monitor enfocado (ancho × alto × refresh), arranca en pantalla completa nested y auto-focusea la ventana nueva del juego. Recupera el ~1 cm perdido por los indicadores de columna de niri y elimina el "abro el juego pero queda en otra columna sin foco". `// drop-in en Steam Launch Options`
-<!-- /excerpt:gamescope-auto -->
-
-**[gamdl-portable](https://github.com/PandaAkiraNakai/gamdl-portable)** &nbsp;·&nbsp; Shell · Apple Music
-<!-- excerpt:gamdl-portable -->
-Setup portable de **gamdl** para rippear tu música de **Apple Music** en **AAC 256 kbps** sobre cualquier PC Linux Debian/Ubuntu. Un solo `setup.sh` idempotente instala `pipx` + `ffmpeg` + `gamdl`, genera el `config.ini` con tus rutas y descarga en `~/Música/{artista}/{álbum}` con tags y carátula. Las cookies (≈ tu sesión Apple) nunca tocan el repo — las pones a mano en el PC nuevo. `// audio-heist · one-shot · zero-creds-in-repo`
-<!-- /excerpt:gamdl-portable -->
-
-**[Cerebro Virtual · Ciencias](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciencias)** &nbsp;·&nbsp; Obsidian · Quartz v4
-<!-- excerpt:Cerebro-Virtual-Ciencias -->
-Vault Obsidian construido como **cerebro virtual de ciencias** — ~375 notas N0→N5 con eje en **paleontología** y ramas en **biología, geología, antropología y química** (expansión taxonómica completa de Dinosauria y Hominoidea). Publicado con **Quartz v4 + nginx en Docker** → [paleo.sergiocubelli.space](https://paleo.sergiocubelli.space).
-<!-- /excerpt:Cerebro-Virtual-Ciencias -->
-
-**[obsidian-quartz-publish](https://github.com/PandaAkiraNakai/obsidian-quartz-publish)** &nbsp;·&nbsp; Template · Docker
-<!-- excerpt:obsidian-quartz-publish -->
-**Template público** extraído del rig anterior: publica tu vault Obsidian como sitio estático con **Quartz v4 + nginx + Docker**, listo para Coolify u otra plataforma docker-compose. Build multi-stage (Quartz se clona en build, el repo del usuario queda chico), magic env `SERVICE_FQDN_SITE` para auto-domain, contenido de ejemplo incluido. `// use this template · plug-in tu vault · burn`
-<!-- /excerpt:obsidian-quartz-publish -->
-
-**[Tetris](https://github.com/PandaAkiraNakai/Tetris)** &nbsp;·&nbsp; JavaScript
-<!-- excerpt:Tetris -->
-Clon de Tetris en HTML5/JS puro, sin frameworks de juego. `// 4 a.m. coding · no deps`
-<!-- /excerpt:Tetris -->
+| Vault | Stack | Descripción |
+| :-- | :-- | :-- |
+| **[Ciberseguridad](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciberseguridad)** | Obsidian · Redes | <!-- excerpt:Cerebro-Virtual-Ciberseguridad -->Vault Obsidian de **redes y ciberseguridad** — 130 notas en 27 secciones: **Cisco IOS / MikroTik**, administración **Linux**, **reconocimiento** (OSINT, Nmap, nuclei), **pentesting** y defensa (firewalls, **IDS/IPS**, criptografía, phishing), **seguridad web** (45 vulns OWASP), **post-explotación** (escalada Linux/Windows, pivoting, **Active Directory**), **monitoreo** (Zabbix / Splunk / Wireshark), **IoT / Meshtastic**, **cloud** y servicios. Grafo de conocimiento navegable con nota índice **MOC** como cabeza del cerebro.<!-- /excerpt:Cerebro-Virtual-Ciberseguridad --> |
+| **[Ciencias](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciencias)** | Obsidian · Quartz | <!-- excerpt:Cerebro-Virtual-Ciencias -->Vault Obsidian construido como **cerebro virtual de ciencias** — ~375 notas N0→N5 con eje en **paleontología** y ramas en **biología, geología, antropología y química** (expansión taxonómica completa de Dinosauria y Hominoidea). Publicado con **Quartz v4 + nginx en Docker** → [paleo.sergiocubelli.space](https://paleo.sergiocubelli.space).<!-- /excerpt:Cerebro-Virtual-Ciencias --> |
 
 <br/>
 
