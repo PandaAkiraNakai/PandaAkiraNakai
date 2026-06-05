@@ -5,14 +5,14 @@
 ### Developer · Linux · Ciberseguridad
 
 <a href="https://github.com/PandaAkiraNakai">
-  <img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=500&size=20&pause=1200&color=0071E3&center=true&vCenter=true&width=620&height=42&lines=Backend+%C2%B7+Python+%2F+Django;Android+%C2%B7+Kotlin+%2F+Compose;Redes+y+ciberseguridad;Automatizaci%C3%B3n+sobre+Linux" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=500&size=20&pause=1200&color=AF52DE&center=true&vCenter=true&width=620&height=42&lines=Backend+%C2%B7+Python+%2F+Django;Android+%C2%B7+Kotlin+%2F+Compose;Redes+y+ciberseguridad;Automatizaci%C3%B3n+sobre+Linux" alt="typing" />
 </a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=PandaAkiraNakai&label=Profile%20views&color=0071e3&style=flat" />
-<img src="https://img.shields.io/github/followers/PandaAkiraNakai?label=Followers&style=flat&color=0071e3" />
-<img src="https://img.shields.io/github/stars/PandaAkiraNakai?label=Stars&style=flat&color=0071e3" />
+<img src="https://komarev.com/ghpvc/?username=PandaAkiraNakai&label=Profile%20views&color=af52de&style=flat" />
+<img src="https://img.shields.io/github/followers/PandaAkiraNakai?label=Followers&style=flat&color=af52de" />
+<img src="https://img.shields.io/github/stars/PandaAkiraNakai?label=Stars&style=flat&color=af52de" />
 
 </div>
 
@@ -83,8 +83,8 @@ Vaults de Obsidian construidos como grafos de conocimiento navegables.
 
 <div align="center">
 
-<img height="160em" src="https://github-readme-stats-nine-tan-12.vercel.app/api?username=PandaAkiraNakai&show_icons=true&hide_border=true&bg_color=00000000&title_color=0071e3&icon_color=0071e3&text_color=8a8a8e" />
-<img height="160em" src="https://github-readme-stats-nine-tan-12.vercel.app/api/top-langs/?username=PandaAkiraNakai&layout=compact&hide_border=true&bg_color=00000000&title_color=0071e3&text_color=8a8a8e&langs_count=8" />
+<img height="160em" src="https://github-readme-stats-nine-tan-12.vercel.app/api?username=PandaAkiraNakai&show_icons=true&hide_border=true&bg_color=00000000&title_color=af52de&icon_color=af52de&text_color=8a8a8e" />
+<img height="160em" src="https://github-readme-stats-nine-tan-12.vercel.app/api/top-langs/?username=PandaAkiraNakai&layout=compact&hide_border=true&bg_color=00000000&title_color=af52de&text_color=8a8a8e&langs_count=8" />
 
 <br/><br/>
 
