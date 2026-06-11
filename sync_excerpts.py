@@ -25,6 +25,7 @@ REPOS = [
     "gamescope-auto",
     "gamdl-portable",
     "Cerebro-Virtual-Ciencias",
+    "Cerebro-Virtual-3DS",
     "obsidian-quartz-publish",
     "Tetris",
 ]
