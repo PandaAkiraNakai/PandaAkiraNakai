@@ -77,7 +77,7 @@ Homebrew para **Nintendo 3DS / New 3DS** con [devkitPro](https://devkitpro.org) 
 
 | Proyecto | Stack | Descripción |
 | :-- | :-- | :-- |
-| **[PandaFlow](https://github.com/PandaAkiraNakai/PandaFlow)** | C · devkitPro · citro2d | <!-- excerpt:PandaFlow -->**Reproductor de música homebrew para Nintendo 3DS** que **sigue sonando con la tapa cerrada** (como la app oficial de Sonido). Escrito en **C** con **devkitPro / libctru + citro2d**: audio por streaming **NDSP** desde un hilo dedicado, **MP3/FLAC/WAV** (dr_libs) y **AAC** (faad2 + minimp4), biblioteca recursiva por **álbumes** con **carátulas** (stb_image → textura GPU), **letras** `.lrc` sincronizadas / `.txt`, **shuffle/repeat** y controles táctiles. UI estilo *Mixtape* con disco de vinilo. Compila a `.3dsx` y `.cia`, con CI en GitHub Actions.<!-- /excerpt:PandaFlow --> |
+| **[PandaFlow](https://github.com/PandaAkiraNakai/PandaFlow)** | C · devkitPro · citro2d | <!-- excerpt:PandaFlow -->**Reproductor de música homebrew para Nintendo 3DS** que **sigue sonando con la tapa cerrada** (como la app oficial de Sonido). Escrito en **C** con **devkitPro / libctru + citro2d**: audio por streaming **NDSP** desde un hilo dedicado, **MP3/FLAC/WAV** (dr_libs) y **AAC** (faad2 + minimp4), biblioteca recursiva por **álbumes** con **carátulas** (stb_image → textura GPU), **letras** `.lrc` sincronizadas / `.txt`, **shuffle/repeat** y controles táctiles. UI estilo *Mixtape* con disco de vinilo. Compila a `.3dsx` (Homebrew Launcher), con CI en GitHub Actions y distribución por **Universal Updater**.<!-- /excerpt:PandaFlow --> |
 
 <br/>
 
