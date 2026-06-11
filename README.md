@@ -68,6 +68,22 @@ Construyo herramientas que conectan el teléfono con el escritorio Linux, daemon
 
 <br/>
 
+## 3DS
+
+Homebrew para **Nintendo 3DS / New 3DS** con [devkitPro](https://devkitpro.org) (devkitARM + libctru + citro2d).
+
+#### Lenguajes
+![C](https://img.shields.io/badge/C-f5f5f7?style=flat&logo=c&logoColor=1d1d1f)
+![C++](https://img.shields.io/badge/C++-f5f5f7?style=flat&logo=cplusplus&logoColor=1d1d1f)
+![ARM Assembly](https://img.shields.io/badge/ARM%20Assembly-f5f5f7?style=flat&logo=arm&logoColor=1d1d1f)
+![PICA200 shaders](https://img.shields.io/badge/PICA200%20shaders-f5f5f7?style=flat&logoColor=1d1d1f)
+
+| Proyecto | Stack | Descripción |
+| :-- | :-- | :-- |
+| **[PandaFlow](https://github.com/PandaAkiraNakai/PandaFlow)** | C · devkitPro · citro2d | <!-- excerpt:PandaFlow -->**Reproductor de música homebrew para Nintendo 3DS** que **sigue sonando con la tapa cerrada** (como la app oficial de Sonido). Escrito en **C** con **devkitPro / libctru + citro2d**: audio por streaming **NDSP** desde un hilo dedicado, **MP3/FLAC/WAV** (dr_libs) y **AAC** (faad2 + minimp4), biblioteca recursiva por **álbumes** con **carátulas** (stb_image → textura GPU), **letras** `.lrc` sincronizadas / `.txt`, **shuffle/repeat** y controles táctiles. UI estilo *Mixtape* con disco de vinilo. Compila a `.3dsx` y `.cia`, con CI en GitHub Actions.<!-- /excerpt:PandaFlow --> |
+
+<br/>
+
 ## Cerebros virtuales
 
 Vaults de Obsidian construidos como grafos de conocimiento navegables.

@@ -28,6 +28,7 @@ REPOS = [
     "Cerebro-Virtual-3DS",
     "obsidian-quartz-publish",
     "Tetris",
+    "PandaFlow",
 ]
 
 
