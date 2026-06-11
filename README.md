@@ -31,8 +31,11 @@ Construyo herramientas que conectan el teléfono con el escritorio Linux, daemon
 ![TypeScript](https://img.shields.io/badge/TypeScript-f5f5f7?style=flat&logo=typescript&logoColor=1d1d1f)
 ![Kotlin](https://img.shields.io/badge/Kotlin-f5f5f7?style=flat&logo=kotlin&logoColor=1d1d1f)
 ![JavaScript](https://img.shields.io/badge/JavaScript-f5f5f7?style=flat&logo=javascript&logoColor=1d1d1f)
+![C](https://img.shields.io/badge/C-f5f5f7?style=flat&logo=c&logoColor=1d1d1f)
 ![C++](https://img.shields.io/badge/C++-f5f5f7?style=flat&logo=cplusplus&logoColor=1d1d1f)
 ![PHP](https://img.shields.io/badge/PHP-f5f5f7?style=flat&logo=php&logoColor=1d1d1f)
+![ARM Assembly](https://img.shields.io/badge/ARM%20Assembly-f5f5f7?style=flat&logo=arm&logoColor=1d1d1f)
+![PICA200 shaders](https://img.shields.io/badge/PICA200%20shaders-f5f5f7?style=flat&logoColor=1d1d1f)
 
 #### Frameworks
 ![Django](https://img.shields.io/badge/Django-f5f5f7?style=flat&logo=django&logoColor=1d1d1f)
@@ -71,12 +74,6 @@ Construyo herramientas que conectan el teléfono con el escritorio Linux, daemon
 ## 3DS
 
 Homebrew para **Nintendo 3DS / New 3DS** con [devkitPro](https://devkitpro.org) (devkitARM + libctru + citro2d).
-
-#### Lenguajes
-![C](https://img.shields.io/badge/C-f5f5f7?style=flat&logo=c&logoColor=1d1d1f)
-![C++](https://img.shields.io/badge/C++-f5f5f7?style=flat&logo=cplusplus&logoColor=1d1d1f)
-![ARM Assembly](https://img.shields.io/badge/ARM%20Assembly-f5f5f7?style=flat&logo=arm&logoColor=1d1d1f)
-![PICA200 shaders](https://img.shields.io/badge/PICA200%20shaders-f5f5f7?style=flat&logoColor=1d1d1f)
 
 | Proyecto | Stack | Descripción |
 | :-- | :-- | :-- |
