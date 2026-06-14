@@ -20,7 +20,7 @@
 
 ## Hola
 
-Construyo herramientas que conectan el teléfono con el escritorio Linux, daemons de automatización y proyectos de redes y seguridad. Me muevo entre **Python/Django** en el backend y **Kotlin/Compose** en Android, casi siempre sobre un setup Linux minimalista.
+Me gusta que mis máquinas hagan exactamente lo que les pido. Construyo daemons de automatización, paneles de control remoto y proyectos de redes y seguridad, casi siempre self-hosted y sin depender de servicios ajenos. Y lo que voy aprendiendo lo convierto en **cerebros virtuales**: grafos de conocimiento en Obsidian que van de la ciberseguridad a la paleontología, publicados como sitios propios. Backend en **Python/Django**, Android en **Kotlin/Compose**, todo sobre un Linux minimalista.
 
 <br/>
 
