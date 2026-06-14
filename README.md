@@ -55,6 +55,19 @@ Me gusta que mis máquinas hagan exactamente lo que les pido. Construyo daemons 
 
 <br/>
 
+## Cerebros virtuales
+
+Vaults de Obsidian construidos como grafos de conocimiento navegables.
+
+| Vault | Stack | Descripción |
+| :-- | :-- | :-- |
+| **[Ciberseguridad](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciberseguridad)** | Obsidian · Redes | <!-- excerpt:Cerebro-Virtual-Ciberseguridad -->Vault Obsidian de **redes y ciberseguridad** — 130 notas en 27 secciones: **Cisco IOS / MikroTik**, administración **Linux**, **reconocimiento** (OSINT, Nmap, nuclei), **pentesting** y defensa (firewalls, **IDS/IPS**, criptografía, phishing), **seguridad web** (45 vulns OWASP), **post-explotación** (escalada Linux/Windows, pivoting, **Active Directory**), **monitoreo** (Zabbix / Splunk / Wireshark), **IoT / Meshtastic**, **cloud** y servicios. Grafo de conocimiento navegable con nota índice **MOC** como cabeza del cerebro.<!-- /excerpt:Cerebro-Virtual-Ciberseguridad --> |
+| **[Ciencias](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciencias)** | Obsidian · Quartz | <!-- excerpt:Cerebro-Virtual-Ciencias -->Vault Obsidian construido como **cerebro virtual de ciencias** — ~375 notas N0→N5 con eje en **paleontología** y ramas en **biología, geología, antropología y química** (expansión taxonómica completa de Dinosauria y Hominoidea). Publicado con **Quartz v4 + nginx en Docker** → [paleo.sergiocubelli.space](https://paleo.sergiocubelli.space).<!-- /excerpt:Cerebro-Virtual-Ciencias --> |
+| **[Desarrollo 3DS](https://github.com/PandaAkiraNakai/Cerebro-Virtual-3DS)** | Obsidian · Homebrew | <!-- excerpt:Cerebro-Virtual-3DS -->Vault Obsidian de **desarrollo homebrew para Nintendo 3DS / New 3DS** — 17 notas: toolchain **devkitPro/devkitARM**, **libctru** y **citro2d**, audio (**NDSP**, dr_libs MP3/FLAC/WAV, AAC con faad2), texturas en runtime, empaquetado **CIA** (makerom + bannertool) y los gotchas resueltos. Grafo navegable con nota **MOC** e índice denso para IA. Proyecto de referencia: **PandaFlow**, reproductor que sigue sonando con la tapa cerrada.<!-- /excerpt:Cerebro-Virtual-3DS --> |
+| **[Redes Cisco](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Redes-Cisco)** | Obsidian · Packet Tracer | <!-- excerpt:Cerebro-Virtual-Redes-Cisco -->Vault Obsidian de **configuración Cisco IOS** — 13 notas centradas en práctica con **Packet Tracer**: plantillas reutilizables (**Router-on-a-stick**, **OSPF**, **DHCP**, port-security, enlace WAN, rutas estáticas), topologías de referencia (doble y triple router-on-a-stick con OSPF área 15) y manual de diagnóstico (APIPA, host unreachable, err-disabled). Cada plantilla se copia y se rellenan los `<placeholders>`.<!-- /excerpt:Cerebro-Virtual-Redes-Cisco --> |
+
+<br/>
+
 ## Proyectos
 
 | Proyecto | Stack | Descripción |
@@ -78,19 +91,6 @@ Homebrew para **Nintendo 3DS / New 3DS** con [devkitPro](https://devkitpro.org) 
 | Proyecto | Stack | Descripción |
 | :-- | :-- | :-- |
 | **[PandaFlow](https://github.com/PandaAkiraNakai/PandaFlow)** | C · devkitPro · citro2d | <!-- excerpt:PandaFlow -->**Reproductor de música homebrew para Nintendo 3DS** que **sigue sonando con la tapa cerrada** (como la app oficial de Sonido). Escrito en **C** con **devkitPro / libctru + citro2d**: audio por streaming **NDSP** desde un hilo dedicado, **MP3/FLAC/WAV** (dr_libs) y **AAC** (faad2 + minimp4), biblioteca recursiva por **álbumes** con **carátulas** (stb_image → textura GPU), **letras** `.lrc` sincronizadas / `.txt`, **shuffle/repeat** y controles táctiles. UI estilo *Mixtape* con disco de vinilo. Compila a `.3dsx` (Homebrew Launcher), con CI en GitHub Actions y distribución por **Universal Updater**.<!-- /excerpt:PandaFlow --> |
-
-<br/>
-
-## Cerebros virtuales
-
-Vaults de Obsidian construidos como grafos de conocimiento navegables.
-
-| Vault | Stack | Descripción |
-| :-- | :-- | :-- |
-| **[Ciberseguridad](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciberseguridad)** | Obsidian · Redes | <!-- excerpt:Cerebro-Virtual-Ciberseguridad -->Vault Obsidian de **redes y ciberseguridad** — 130 notas en 27 secciones: **Cisco IOS / MikroTik**, administración **Linux**, **reconocimiento** (OSINT, Nmap, nuclei), **pentesting** y defensa (firewalls, **IDS/IPS**, criptografía, phishing), **seguridad web** (45 vulns OWASP), **post-explotación** (escalada Linux/Windows, pivoting, **Active Directory**), **monitoreo** (Zabbix / Splunk / Wireshark), **IoT / Meshtastic**, **cloud** y servicios. Grafo de conocimiento navegable con nota índice **MOC** como cabeza del cerebro.<!-- /excerpt:Cerebro-Virtual-Ciberseguridad --> |
-| **[Ciencias](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciencias)** | Obsidian · Quartz | <!-- excerpt:Cerebro-Virtual-Ciencias -->Vault Obsidian construido como **cerebro virtual de ciencias** — ~375 notas N0→N5 con eje en **paleontología** y ramas en **biología, geología, antropología y química** (expansión taxonómica completa de Dinosauria y Hominoidea). Publicado con **Quartz v4 + nginx en Docker** → [paleo.sergiocubelli.space](https://paleo.sergiocubelli.space).<!-- /excerpt:Cerebro-Virtual-Ciencias --> |
-| **[Desarrollo 3DS](https://github.com/PandaAkiraNakai/Cerebro-Virtual-3DS)** | Obsidian · Homebrew | <!-- excerpt:Cerebro-Virtual-3DS -->Vault Obsidian de **desarrollo homebrew para Nintendo 3DS / New 3DS** — 17 notas: toolchain **devkitPro/devkitARM**, **libctru** y **citro2d**, audio (**NDSP**, dr_libs MP3/FLAC/WAV, AAC con faad2), texturas en runtime, empaquetado **CIA** (makerom + bannertool) y los gotchas resueltos. Grafo navegable con nota **MOC** e índice denso para IA. Proyecto de referencia: **PandaFlow**, reproductor que sigue sonando con la tapa cerrada.<!-- /excerpt:Cerebro-Virtual-3DS --> |
-| **[Redes Cisco](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Redes-Cisco)** | Obsidian · Packet Tracer | <!-- excerpt:Cerebro-Virtual-Redes-Cisco -->Vault Obsidian de **configuración Cisco IOS** — 13 notas centradas en práctica con **Packet Tracer**: plantillas reutilizables (**Router-on-a-stick**, **OSPF**, **DHCP**, port-security, enlace WAN, rutas estáticas), topologías de referencia (doble y triple router-on-a-stick con OSPF área 15) y manual de diagnóstico (APIPA, host unreachable, err-disabled). Cada plantilla se copia y se rellenan los `<placeholders>`.<!-- /excerpt:Cerebro-Virtual-Redes-Cisco --> |
 
 <br/>
 
