@@ -20,7 +20,7 @@
 
 ## Hola
 
-Me gusta que mis máquinas hagan exactamente lo que les pido. Construyo daemons de automatización, paneles de control remoto y proyectos de redes y seguridad, casi siempre self-hosted y sin depender de servicios ajenos. Y lo que voy aprendiendo lo convierto en **cerebros virtuales**: grafos de conocimiento en Obsidian que van de la ciberseguridad a la paleontología, publicados como sitios propios. Backend en **Python/Django**, Android en **Kotlin/Compose**, todo sobre un Linux minimalista.
+Me gusta que mis máquinas hagan exactamente lo que les pido. Construyo daemons de automatización, paneles de control remoto y proyectos de redes y seguridad, casi siempre self-hosted y sin depender de servicios ajenos. Y lo que voy aprendiendo lo convierto en **cerebros virtuales**: grafos de conocimiento en Obsidian que van de la ciberseguridad a la paleontología. Backend en **Python/Django**, Android en **Kotlin/Compose**, todo sobre un Linux minimalista.
 
 <br/>
 
