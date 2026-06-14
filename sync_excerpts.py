@@ -26,6 +26,7 @@ REPOS = [
     "gamdl-portable",
     "Cerebro-Virtual-Ciencias",
     "Cerebro-Virtual-3DS",
+    "Cerebro-Virtual-Redes-Cisco",
     "obsidian-quartz-publish",
     "Tetris",
     "PandaFlow",
