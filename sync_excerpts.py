@@ -26,6 +26,8 @@ REPOS = [
     "obsidian-quartz-publish",
     "CO3",
     "PandaFlow",
+    "zenmonitor",
+    "zendock",
 ]
 
 
