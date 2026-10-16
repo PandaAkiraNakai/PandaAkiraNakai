@@ -21,6 +21,7 @@ REPOS = [
     "niri-bootstrap",
     "starship-cyberpunk-preset",
     "Cerebro-Virtual-Ciencias",
+    "Cerebro-Virtual-Decompilaciones",
     "Cerebro-Virtual-3DS",
     "Cerebro-Virtual-Redes-Cisco",
     "obsidian-quartz-publish",
