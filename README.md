@@ -2,10 +2,10 @@
 
 # Panda Akira
 
-### Developer · Linux · Ciberseguridad
+### Ciberseguridad · Cerebros virtuales · IA
 
 <a href="https://github.com/PandaAkiraNakai">
-  <img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=500&size=20&pause=1200&color=AF52DE&center=true&vCenter=true&width=620&height=42&lines=Backend+%C2%B7+Python+%2F+Django;Android+%C2%B7+Kotlin+%2F+Compose;Redes+y+ciberseguridad;Automatizaci%C3%B3n+sobre+Linux" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=500&size=20&pause=1200&color=AF52DE&center=true&vCenter=true&width=620&height=42&lines=Redes+y+ciberseguridad;Cerebros+virtuales+en+Obsidian;IA+local+sobre+mis+notas;Ingenier%C3%ADa+inversa+con+Ghidra" alt="typing" />
 </a>
 
 <br/>
@@ -20,7 +20,28 @@
 
 ## Hola
 
-Me gusta que mis máquinas hagan exactamente lo que les pido. Construyo daemons de automatización, paneles de control remoto y proyectos de redes y seguridad, casi siempre self-hosted y sin depender de servicios ajenos. Y lo que voy aprendiendo lo convierto en **cerebros virtuales**: grafos de conocimiento en Obsidian que van de la ciberseguridad a la paleontología. Backend en **Python/Django**, Android en **Kotlin/Compose**, todo sobre un Linux minimalista.
+Estudio **redes y ciberseguridad**, y todo lo que aprendo lo convierto en **cerebros virtuales**: grafos de conocimiento en Obsidian sobre pentesting, defensa, redes, ingeniería inversa y lo que me vaya apasionando. Lo que más me interesa es **cómo la IA puede trabajar sobre ese conocimiento**: no para que piense por mí, sino para que sea un compañero de estudio que conoce mis notas, recuerda lo que ya resolvimos y me ayuda a llegar más hondo.
+
+#### Cómo uso la IA con mis cerebros
+
+- **Notas legibles por una IA**: los vaults tienen un punto de entrada (**MOC** o README) y los más nuevos un **índice denso para IA** (`_INDEX (IA)`), para que un agente encuentre la nota correcta con mínima lectura.
+- **Memoria persistente local** con [mem-cli](https://github.com/PandaAkiraNakai/mem-cli): SQLite + **embeddings en mi propia GPU** (Ollama) para búsqueda por significado; el agente recupera contexto al empezar y guarda lo aprendido al terminar.
+- **El agente escribe de vuelta**: cada sesión de trabajo (un análisis, un error resuelto, una mejora medida) termina como nota en el vault. Así nació [Decompilaciones](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Decompilaciones), con **REA + Ghidra** orquestados por IA.
+- **Self-hosted y sin depender de nadie**: todo corre en mis máquinas Linux, unidas por Tailscale.
+
+<br/>
+
+## Cerebros virtuales
+
+Vaults de Obsidian construidos como grafos de conocimiento navegables, pensados para leerlos yo y para que una IA los recorra.
+
+| Vault | Stack | Descripción |
+| :-- | :-- | :-- |
+| **[Ciberseguridad](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciberseguridad)** | Obsidian · Redes | <!-- excerpt:Cerebro-Virtual-Ciberseguridad -->Vault Obsidian de **redes y ciberseguridad** — más de 140 notas en 29 secciones: **Cisco IOS / MikroTik**, administración **Linux**, **reconocimiento** (OSINT, Nmap, nuclei), **pentesting** (Metasploit avanzado, catálogo Kali, WPScan, sqlmap) y defensa (firewalls, **IDS/IPS**, criptografía, phishing), **seguridad web** (45 vulns OWASP), **post-explotación** (escalada Linux/Windows, pivoting, **Active Directory**, CrackMapExec), **cracking** (Hashcat / John / Hydra) y **esteganografía**, **monitoreo** (Zabbix / Splunk / Wireshark), **IoT / Meshtastic**, **cloud** y servicios. Grafo de conocimiento navegable con nota índice **MOC** como cabeza del cerebro.<!-- /excerpt:Cerebro-Virtual-Ciberseguridad --> |
+| **[Ciencias](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciencias)** | Obsidian · Quartz | <!-- excerpt:Cerebro-Virtual-Ciencias -->Vault Obsidian construido como **cerebro virtual de ciencias** — ~458 notas N0→N5 con eje en **paleontología** y ramas en **biología, geología, antropología y química** (los cinco reinos, los vertebrados por órdenes y mineralogía/petrología, 12 MOCs transversales, grafo sin enlaces rotos). Disponible en [paleo.sergiocubelli.space](https://paleo.sergiocubelli.space).<!-- /excerpt:Cerebro-Virtual-Ciencias --> |
+| **[Decompilaciones](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Decompilaciones)** | Obsidian · Ghidra | <!-- excerpt:Cerebro-Virtual-Decompilaciones -->Vault Obsidian de **ingeniería inversa y decompilación** — método por capas (identidad → mapa de memoria → símbolos → tipos → lógica), **REA + Ghidra** headless, plataforma **GBA** (ARM7TDMI, Thumb, mapa de memoria), patrones del compilador **agbcc** y una **bitácora de optimizaciones** medida. Primer proyecto: **Pokémon Esmeralda ES**, con el **81 %** de las funciones nombradas portando los símbolos de pret por coincidencia de bytes, y funciones estudiadas contra el C original.<!-- /excerpt:Cerebro-Virtual-Decompilaciones --> |
+| **[Desarrollo 3DS](https://github.com/PandaAkiraNakai/Cerebro-Virtual-3DS)** | Obsidian · Homebrew | <!-- excerpt:Cerebro-Virtual-3DS -->Vault Obsidian de **desarrollo homebrew para Nintendo 3DS / New 3DS** — 17 notas: toolchain **devkitPro/devkitARM**, **libctru** y **citro2d**, audio (**NDSP**, dr_libs MP3/FLAC/WAV, AAC con faad2), texturas en runtime, empaquetado **CIA** (makerom + bannertool) y los gotchas resueltos. Grafo navegable con nota **MOC** e índice denso para IA. Proyecto de referencia: **PandaFlow**, reproductor que sigue sonando con la tapa cerrada.<!-- /excerpt:Cerebro-Virtual-3DS --> |
+| **[Redes Cisco](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Redes-Cisco)** | Obsidian · Packet Tracer | <!-- excerpt:Cerebro-Virtual-Redes-Cisco -->Vault Obsidian de **configuración Cisco IOS** — 13 notas centradas en práctica con **Packet Tracer**: plantillas reutilizables (**Router-on-a-stick**, **OSPF**, **DHCP**, port-security, enlace WAN, rutas estáticas), topologías de referencia (doble y triple router-on-a-stick con OSPF área 15) y manual de diagnóstico (APIPA, host unreachable, err-disabled). Cada plantilla se copia y se rellenan los `<placeholders>`.<!-- /excerpt:Cerebro-Virtual-Redes-Cisco --> |
 
 <br/>
 
@@ -52,20 +73,6 @@ Me gusta que mis máquinas hagan exactamente lo que les pido. Construyo daemons 
 ![MySQL](https://img.shields.io/badge/MySQL-f5f5f7?style=flat&logo=mysql&logoColor=1d1d1f)
 ![SQLite](https://img.shields.io/badge/SQLite-f5f5f7?style=flat&logo=sqlite&logoColor=1d1d1f)
 ![Git](https://img.shields.io/badge/Git-f5f5f7?style=flat&logo=git&logoColor=1d1d1f)
-
-<br/>
-
-## Cerebros virtuales
-
-Vaults de Obsidian construidos como grafos de conocimiento navegables.
-
-| Vault | Stack | Descripción |
-| :-- | :-- | :-- |
-| **[Ciberseguridad](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciberseguridad)** | Obsidian · Redes | <!-- excerpt:Cerebro-Virtual-Ciberseguridad -->Vault Obsidian de **redes y ciberseguridad** — más de 140 notas en 29 secciones: **Cisco IOS / MikroTik**, administración **Linux**, **reconocimiento** (OSINT, Nmap, nuclei), **pentesting** (Metasploit avanzado, catálogo Kali, WPScan, sqlmap) y defensa (firewalls, **IDS/IPS**, criptografía, phishing), **seguridad web** (45 vulns OWASP), **post-explotación** (escalada Linux/Windows, pivoting, **Active Directory**, CrackMapExec), **cracking** (Hashcat / John / Hydra) y **esteganografía**, **monitoreo** (Zabbix / Splunk / Wireshark), **IoT / Meshtastic**, **cloud** y servicios. Grafo de conocimiento navegable con nota índice **MOC** como cabeza del cerebro.<!-- /excerpt:Cerebro-Virtual-Ciberseguridad --> |
-| **[Ciencias](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Ciencias)** | Obsidian · Quartz | <!-- excerpt:Cerebro-Virtual-Ciencias -->Vault Obsidian construido como **cerebro virtual de ciencias** — ~458 notas N0→N5 con eje en **paleontología** y ramas en **biología, geología, antropología y química** (los cinco reinos, los vertebrados por órdenes y mineralogía/petrología, 12 MOCs transversales, grafo sin enlaces rotos). Disponible en [paleo.sergiocubelli.space](https://paleo.sergiocubelli.space).<!-- /excerpt:Cerebro-Virtual-Ciencias --> |
-| **[Decompilaciones](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Decompilaciones)** | Obsidian · Ghidra | <!-- excerpt:Cerebro-Virtual-Decompilaciones -->Vault Obsidian de **ingeniería inversa y decompilación** — método por capas (identidad → mapa de memoria → símbolos → tipos → lógica), **REA + Ghidra** headless, plataforma **GBA** (ARM7TDMI, Thumb, mapa de memoria), patrones del compilador **agbcc** y una **bitácora de optimizaciones** medida. Primer proyecto: **Pokémon Esmeralda ES**, con el **81 %** de las funciones nombradas portando los símbolos de pret por coincidencia de bytes, y funciones estudiadas contra el C original.<!-- /excerpt:Cerebro-Virtual-Decompilaciones --> |
-| **[Desarrollo 3DS](https://github.com/PandaAkiraNakai/Cerebro-Virtual-3DS)** | Obsidian · Homebrew | <!-- excerpt:Cerebro-Virtual-3DS -->Vault Obsidian de **desarrollo homebrew para Nintendo 3DS / New 3DS** — 17 notas: toolchain **devkitPro/devkitARM**, **libctru** y **citro2d**, audio (**NDSP**, dr_libs MP3/FLAC/WAV, AAC con faad2), texturas en runtime, empaquetado **CIA** (makerom + bannertool) y los gotchas resueltos. Grafo navegable con nota **MOC** e índice denso para IA. Proyecto de referencia: **PandaFlow**, reproductor que sigue sonando con la tapa cerrada.<!-- /excerpt:Cerebro-Virtual-3DS --> |
-| **[Redes Cisco](https://github.com/PandaAkiraNakai/Cerebro-Virtual-Redes-Cisco)** | Obsidian · Packet Tracer | <!-- excerpt:Cerebro-Virtual-Redes-Cisco -->Vault Obsidian de **configuración Cisco IOS** — 13 notas centradas en práctica con **Packet Tracer**: plantillas reutilizables (**Router-on-a-stick**, **OSPF**, **DHCP**, port-security, enlace WAN, rutas estáticas), topologías de referencia (doble y triple router-on-a-stick con OSPF área 15) y manual de diagnóstico (APIPA, host unreachable, err-disabled). Cada plantilla se copia y se rellenan los `<placeholders>`.<!-- /excerpt:Cerebro-Virtual-Redes-Cisco --> |
 
 <br/>
 
